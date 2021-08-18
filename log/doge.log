@@ -1,0 +1,36 @@
+[0;33mApplication is running as root (UID 0). This is considered insecure.[0m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-08-18 00:32:43.436  INFO 2643 --- [           main] c.d.doge_search.DogeSearchApplication    : Starting DogeSearchApplication v0.0.1-SNAPSHOT using Java 11.0.11 on iZbp109kx7pq18ld4ba3baZ with PID 2643 (/www/wwwroot/Java/doge_search/target/doge-search-1.0.jar started by root in /www/wwwroot/Java/doge_search/target)
+2021-08-18 00:32:43.446  INFO 2643 --- [           main] c.d.doge_search.DogeSearchApplication    : No active profile set, falling back to default profiles: default
+2021-08-18 00:32:44.785  INFO 2643 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18 00:32:44.850  INFO 2643 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2021-08-18 00:32:45.767  INFO 2643 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8095 (http)
+2021-08-18 00:32:45.784  INFO 2643 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-18 00:32:45.785  INFO 2643 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-18 00:32:45.862  INFO 2643 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-18 00:32:45.862  INFO 2643 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2337 ms
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+2021-08-18 00:32:46.154  INFO 2643 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18 00:32:46.248  INFO 2643 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-18 00:32:46.451  INFO 2643 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-18 00:32:46.594  INFO 2643 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-18 00:32:46.600  WARN 2643 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-18 00:32:47.138  INFO 2643 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-18 00:32:47.183  INFO 2643 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-08-18 00:32:48.100  INFO 2643 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18 00:32:48.114  INFO 2643 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18 00:32:48.534  WARN 2643 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-18 00:32:48.981  WARN 2643 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-08-18 00:32:49.135  INFO 2643 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8095 (http) with context path ''
+2021-08-18 00:32:49.149  INFO 2643 --- [           main] c.d.doge_search.DogeSearchApplication    : Started DogeSearchApplication in 6.626 seconds (JVM running for 7.285)
+2021-08-18 00:34:52.182  INFO 2643 --- [nio-8095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-18 00:34:52.182  INFO 2643 --- [nio-8095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-18 00:34:52.184  INFO 2643 --- [nio-8095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
